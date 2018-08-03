@@ -10,7 +10,7 @@ source:
   sha256: 87f7d4089a0c2be65f961eb46c1c26749afe58a299cc0d14ddec436e897b7af6
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: python -m pip install --no-deps --ignore-installed .
 
@@ -22,6 +22,7 @@ requirements:
   run:
     - python
     - cloudpickle
+    - psutil
 
 test:
   imports:
