@@ -1,7 +1,7 @@
 About loky
 ==========
 
-Home: https://github.com/tomMoral/loky
+Home: https://github.com/joblib/loky
 
 Package license: BSD 3-Clause
 
