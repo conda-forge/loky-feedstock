@@ -28,12 +28,12 @@ test:
     - loky
 
 about:
-  home: https://github.com/tomMoral/loky
+  home: https://github.com/joblib/loky
   license: BSD-3-Clause
   license_file: LICENSE.txt
   summary: A robust implementation of concurrent.futures.ProcessPoolExecutor
   doc_url: https://loky.readthedocs.io/
-  dev_url: https://github.com/tomMoral/loky
+  dev_url: https://github.com/joblib/loky
 
 extra:
   recipe-maintainers:
