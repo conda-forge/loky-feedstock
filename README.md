@@ -5,7 +5,7 @@ Home: https://github.com/joblib/loky
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A robust implementation of concurrent.futures.ProcessPoolExecutor
 
