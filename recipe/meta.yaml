@@ -1,5 +1,5 @@
 {% set name = "loky" %}
-{% set version = "3.1.0" %}
+{% set version = "3.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b830694e9df1df5c884eca954b440f7e4004d14099b00e3b0e87098bb31c90b8
+  sha256: 3811c1cfc6abe47cee1e4533d66f4cc25e6c91d25a218b668fdf6cf0484b6117
 
 build:
   number: 0
