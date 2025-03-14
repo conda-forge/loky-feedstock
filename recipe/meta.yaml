@@ -1,5 +1,5 @@
 {% set name = "loky" %}
-{% set version = "3.4.1" %}
+{% set version = "3.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 66db350de68c301299c882ace3b8f06ba5c4cb2c45f8fcffd498160ce8280753
+  sha256: 0ac7648a2c02758c37dcf3587ee4832d245ec5a4b0fec5cc0c6a9cc8e5695b53
 
 build:
   number: 0
@@ -16,10 +16,10 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python {{ python_min }}
     - pip
   run:
-    - python >=3.7
+    - python >= {{ python_min }}
     - cloudpickle
     - psutil
 
