@@ -6,8 +6,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://github.com/joblib/loky/archive/{{ version }}.tar.gz
-  sha256: 0c230f3ca88c07ac270a67825982e5e153ab6ce910ba9f9d03253adf3a987722
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 0ac7648a2c02758c37dcf3587ee4832d245ec5a4b0fec5cc0c6a9cc8e5695b53
 
 build:
   number: 0
