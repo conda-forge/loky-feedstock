@@ -18,12 +18,15 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
+    - setuptools
   run:
     - python >={{ python_min }}
     - cloudpickle
     - psutil
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - loky
 
