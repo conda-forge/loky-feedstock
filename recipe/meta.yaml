@@ -1,13 +1,13 @@
 {% set name = "loky" %}
-{% set version = "3.5.6" %}
+{% set version = "3.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d96935ed689aa53eeb7b329769544950fa10a52706968f5d0af3d9c33a761e77
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 80928106fe18b5300c6f1b3a871d71e68a81dc9b2fe5c8ee4afe93bb9ba6424d
 
 build:
   number: 0
